@@ -33,8 +33,13 @@ https://github.com/supremepanda/CameraShakeManager.git#upm
 ### How to use?
 
 1- First of all, you need to create a Virtual Camera.
+
 2- Then you should need to set Noise to Basic Multi Channel Perlin. And Noise profile is 6D Shake. Amplitude gain and frequency gain values should be 0.
+
 3- After all, you need to add CameraShakeComponent. If you want to start with this camera, you can set ActivateOnStart. Every CameraShakeComponent has ```Activate(bool flag)``` method to control. When you change a camera, you should deactivate previous one and activate the new one. 
+
 4- Create new CameraShakeSource scriptable object from Create menu. 
+
 5- Configure your camera shake values from CameraShakeSource scriptable object.
+
 6- Then you should add your source to CameraShakeComponent if you want to shake for this camera.
