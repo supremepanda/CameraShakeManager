@@ -1,0 +1,31 @@
+{
+  "name": "com.supremepanda.camera_shake_manager",
+  "version": "1.0.0",
+  "displayName": "Camera Shake Manager",
+  "description": "Easy to use Camera Shake Manager via Cinemachine.",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "licensesUrl": "License url",
+  "documentationUrl": "Documentation url",
+  "dependencies": {
+    "com.unity.cinemachine": "2.9.7"
+ },
+ "keywords": [
+    "camera-shake",
+    "camera",
+    "cinemachine",
+    "unity-tool"
+  ],
+ "samples": [
+    {
+        "displayName": "Samples",
+        "description": "This demo included with an example scene.",
+        "path": "Samples~"
+    }
+ ],
+  "author": {
+    "name": "Furkan Baldır",
+    "email": "furkanbaldirdev@gmail.com",
+    "url": "https://github.com/supremepanda"
+  }
+}
