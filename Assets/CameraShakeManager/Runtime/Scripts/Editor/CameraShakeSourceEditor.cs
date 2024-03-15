@@ -9,7 +9,7 @@ namespace CameraShakeManager
         public override void OnInspectorGUI()
         {
             DrawDefaultInspector();
-            var cameraShakeSource = (CameraShakeSource)target;
+            var cameraShakeSource = (ICameraShakeSource)target;
             if (GUILayout.Button("Shake"))
             {
                 cameraShakeSource.OnShake();
